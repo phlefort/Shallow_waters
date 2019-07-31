@@ -1,0 +1,8 @@
+100 ! tmax  en seconde
+riviere.am_fmt  ! nom du fichier contenant le maillage
+100 !pas daffichage et d'impression des fichiers visit
+1 4 3 2 ! refs pour les CL : ouest , nord, est, sud
+1. 0.1 ! hauteur et vitesse d'entrée de la riviere
+100000 ! iterations maximales pour la recherche du stationnaire
+oui riviere.V0.10000000000000001_h1.00000000000000000  ! "oui" ou "non" pour la lecteur d'un champs stationnaire, et prefic du fichier
+1.4 0.  ! hauteur et vitesse du mascaret 
